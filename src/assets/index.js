@@ -1,26 +1,22 @@
 // import logo from "./arr.svg";
-import aarti from "./photo2.jpg";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-
 import close from "./icons/close.png";
 import menu from "./icons/menu.png";
 import send from "./icons/send.png";
 import sendHover from "./icons/sendHover.png";
 import mypic1 from "./mypic.jpg";
 import mypic2 from "./mypic2.jpg";
-
 import ux from "./icons/ux.png";
 import frontend from "./icons/frontend.png";
 import prototyping from "./icons/prototyping.png";
-
 import phone from "./contacts/phone.svg";
 import linkedin from "./contacts/linkedin.svg";
 import email from "./contacts/email.svg";
 import githubIcon from "./contacts/github.svg";
-
 import github from "./github.png";
 import demo from "./demo.png";
 import logo from "./logo/logo-black.png";
@@ -34,13 +30,6 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-
-import holopin from "./holopin.png";
-import hf from "./hf.svg";
-import bny from "./bny.png";
-import clg from "./clg.png";
-import school from "./school.png";
-
 import python from "./tech/python.png";
 import flask from "./tech/flask.png";
 import cpp from "./tech/cpp.png";
@@ -57,51 +46,36 @@ import redux from "./tech/redux.png";
 import postgresql from "./tech/postgresql.png";
 import docker from "./tech/docker.png";
 import matlab from "./tech/matlab.png";
-
 import calpolyLogo from "./company/calpolyLogo.jpg";
 import ceravoLogo from "./company/ceravoLogo.png";
 import mtSacLogo from "./company/mtSac.png";
-
 import pineapple from "./icons/pineapple.png";
 import pineappleHover from "./icons/pineappleHover.png";
-
 import starco from "./projects/starco.png";
 import pixelPond from "./projects/pixelPond.png";
 
-import crypto from "./project/crypto.jpg";
-import oop from "./project/oop.png";
-import crud from "./project/crud.jpg";
-import dwld from "./project/dwld.jpg";
-import onetomany from "./project/onetomany.jpg";
-import yml from "./project/yml.png";
-
-import trie from "./project/trie.jpg";
-import ds from "./project/ds.jpg";
-import cg from "./project/cg.jpg";
-
-import port_3d from "./project/react.png";
-import jsp from "./project/jsp.png";
-import notes from "./project/notes.png";
-import chitchat from "./project/chitChat.png";
-import react1 from "./project/react1.png";
-
-import be from "./project/mcq.avif";
-import sql from "./project/sql.jpg";
-import mini from "./project/library.png";
-import snl from "./project/snl.jpeg";
-
 export {
-  logo,
-  logotext,
   backend,
   creator,
-  close,
-  menu,
-  mypic1,
-  mypic2,
   mobile,
   web,
+  close,
+  menu,
+  send,
+  sendHover,
+  mypic1,
+  mypic2,
+  ux,
+  frontend,
+  prototyping,
+  phone,
+  linkedin,
+  email,
+  githubIcon,
   github,
+  demo,
+  logo,
+  logotext,
   css,
   git,
   html,
@@ -111,12 +85,6 @@ export {
   reactjs,
   tailwind,
   threejs,
-  hf,
-  holopin,
-  bny,
-  demo,
-  clg,
-  school,
   python,
   flask,
   cpp,
@@ -133,42 +101,13 @@ export {
   postgresql,
   docker,
   matlab,
-  crypto,
-  aarti,
-  oop,
-  crud,
-  dwld,
-  onetomany,
-  yml,
-  trie,
-  ds,
-  cg,
-  port_3d,
-  jsp,
-  chitchat,
-  notes,
-  react1,
-  be,
-  sql,
-  mini,
-  snl,
   calpolyLogo,
   ceravoLogo,
   mtSacLogo,
-  starco,
-  pixelPond,
   pineapple,
   pineappleHover,
-  send,
-  sendHover,
-
-  phone,
-  email,
-  linkedin,
-  githubIcon,
-
-  frontend,
-  ux,
-  prototyping,
+  starco,
+  pixelPond,
+  
 
 };

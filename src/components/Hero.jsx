@@ -7,7 +7,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { ImLinkedin } from "react-icons/im";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLinkAlt } from "react-icons/bi";
-import { aarti, mypic1, mypic2 } from "../assets";
+import { mypic1, mypic2 } from "../assets";
 import "./Hero.scss";
 
 const Hero = () => {

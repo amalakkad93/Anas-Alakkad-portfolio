@@ -7,8 +7,6 @@ import Experience from './Experience';
 import Project from './Project';
 import Contact from './Contact';
 import Content from './Content';
-// import Profile from './Profile';
-// import Achievement from './Achievement';
 import GameOfLife from './GameOfLife/GameOfLife';
 import Education from './Education';
 import Footer from './Footer'
@@ -29,8 +27,6 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
-  // Profile,
   Footer,
   ErrorBoundary,
-  // Achievement,
 }
