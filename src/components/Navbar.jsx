@@ -41,9 +41,9 @@ const Navbar = () => {
             alt="logo"
             className="sm:w-[90px] sm:h-[90px] w-[85px] h-[85px] -ml-[0.6rem] object-contain"
           />
-          <p className="text-white text-[18px] font-bold flex">
+          {/* <p className="text-white text-[18px] font-bold flex">
             Anas&nbsp;<span className="hidden sm:block">Alakkad</span>
-          </p>
+          </p> */}
         </Link>
 
         {/* navlinks */}
@@ -53,13 +53,18 @@ const Navbar = () => {
               key={link.id}
               className={`${active === link.title ? "text-white" : "text-secondary"
                 } hover:text-white text-[18px] cursor-pointer`}
-              // onClick={() => setActive(link.title)}
-              onClick={() => handleNavLinkClick(link.title, link.title === 'Resume')}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              {link.title === 'Resume' ? (
+                // Render the Resume link with a direct download attribute
+                <a href="https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf" download="Anas_Alakkad_Resume.pdf">{link.title}</a>
+              ) : (
+                // Render other links normally
+                <a href={`#${link.id}`}>{link.title}</a>
+              )}
             </li>
           ))}
         </ul>
+
 
         {/* mobile view navlinks */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -84,24 +89,20 @@ const Navbar = () => {
                   }}
                 >
                   {link.title === 'Resume' ? (
-                    <a  href="https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf" target="_blank" >{link.title}</a>
-
+                    <a href="https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf" download="Anas_Alakkad_Resume.pdf">{link.title}</a>
                   ) : (
                     <a href={`#${link.id}`}>{link.title}</a>
                   )}
+
+
+
                 </li>
               ))}
             </ul>
           </div>
         </div>
 
-        <div
-          className={`top2 ${"text-secondary"
-            } hover:text-white text-[15px] font-medium cursor-pointer`}
-        >
-          <a href="https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf" target="_blank">Resume</a>
 
-        </div>
       </div>
     </nav>
   );
