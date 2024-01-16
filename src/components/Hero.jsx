@@ -1,68 +1,84 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import {init} from 'ityped';
-import React , { useEffect , useRef} from "react";
-import {AiOutlineGithub } from "react-icons/ai";
-import {ImLinkedin} from "react-icons/im";
-import {AiOutlineInstagram} from "react-icons/ai";
-import {BiLinkAlt} from "react-icons/bi";
-import {aarti} from "../assets";
+import { init } from 'ityped';
+import React, { useEffect, useRef } from "react";
+import { AiOutlineGithub } from "react-icons/ai";
+import { ImLinkedin } from "react-icons/im";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { BiLinkAlt } from "react-icons/bi";
+import { aarti, mypic1, mypic2 } from "../assets";
 import "./Hero.scss";
 
 const Hero = () => {
 
-  const textRef=useRef();
-  useEffect(()=>
-  {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY Mellon ', "Regional Level TT Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
-  },[]);
+  const textRef = useRef();
+  useEffect(() => {
+    init(textRef.current, { showCursor: true, strings: ["HTML 5", "CSS 3", "JavaScript", "React JS", "Redux Toolkit", "Node JS", "postgresql", "git", "docker", "Python", "Flask", "C++", "Express", "SQLAlchemy", "Embedded C", "SQLite", "Pytest", "AWS"], })
+  }, []);
 
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div className="flex">
-      <div
-        className={`head1 absolute  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-        </div>
+        <div
+          className={`head1 absolute  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        >
+          <div className='flex flex-col justify-center items-center mt-5'>
+            <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+            <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          </div>
 
 
-        <div className="head2">
+          <div className="head2">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hii there, I'm <p className='name text-[#915EFF]'>Aarti Rathi</p>
+            Hi! I&apos;m <span className="text-[#915EFF]">Anas Alakkad</span>
           </h1>
-          <h3>
-            <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
-          </h3>
-        
-        <div className="absolute link1">        
-        <a
-          href="https://github.com/shinchancode" target="_blank">
-          <AiOutlineGithub />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
-          <ImLinkedin />
-        </a>
-        <a
-          href="https://www.instagram.com/aarti.rathiii" target="_blank">
-          <AiOutlineInstagram />
-        </a>
-        <a
-          href="https://linktr.ee/rathi17" target="_blank">
-          <BiLinkAlt />
-        </a>
+          <p className={`${styles.heroSubText} text-white-100`}>
+            I am a Software Engineering well versed in
+            <br className="sm:block hidden" /> {" "}
+            <span key="unique-key"
+            // className="text-[#007bff] font-bold"
+            ref={textRef}
+            style={{
+              background: 'linear-gradient(45deg, #8e2de2, #4a00e0)',
+              WebkitBackgroundClip: 'text',
+              backgroundClip: 'text',
+              color: 'transparent',
+              fontWeight: 'bold',
+            }}
+            >
+            {" "}
+            </span>
+          </p>
+            <h3>
+              {/* <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span> */}
+            </h3>
 
-      </div>
+            {/* <div className="absolute link1">
+              <a
+                href="https://github.com/shinchancode" target="_blank">
+                <AiOutlineGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+                <ImLinkedin />
+              </a>
+              <a
+                href="https://www.instagram.com/aarti.rathiii" target="_blank">
+                <AiOutlineInstagram />
+              </a>
+              <a
+                href="https://linktr.ee/rathi17" target="_blank">
+                <BiLinkAlt />
+              </a>
 
-      </div>
-      </div>
-      <div className="imgcontainer1 absolute violet-gradient">
-        <img src={aarti} alt="" className="object-contain"/>
-      </div>
+            </div> */}
+
+          </div>
+        </div>
+        <div className="imgcontainer1 absolute violet-gradient">
+          <img src={mypic1} alt="" className="object-contain" />
+        </div>
       </div>
 
 
