@@ -8,52 +8,6 @@ import { styles } from "../styles";
 
 import { contacts } from "../constants";
 
-// const ImageCard = ({ src, alt, index, a, contactType }) => {
-//   const [showTooltip, setShowTooltip] = useState(false);
-
-//   let hrefValue = a;
-//   let tooltip = "";
-//   let copyText = "";
-
-//   // if (contactType === "email") {
-//   //   tooltip = "Email: " + a;
-//   //   hrefValue = `mailto:${a}`;
-//   // } else if (contactType === "phone") {
-//   //   tooltip = "Phone: " + a;
-//   //   hrefValue = `tel:${a}`;
-//   // }
-
-//   if (contactType === "email") {
-//     hrefValue = `mailto:${a}`;
-//     copyText = a;
-//   } else if (contactType === "phone") {
-//     hrefValue = `tel:${a}`;
-//     copyText = a;
-//   }
-
-//   const handleMouseEnter = () => {
-//     setShowTooltip(true);
-//   };
-
-//   const handleMouseLeave = () => {
-//     setShowTooltip(false);
-//   };
-
-//   return (
-//     <motion.div variants={fadeIn("right", "spring", 0.5 * index, 0.75)}>
-//       <CopyToClipboard text={copyText}>
-//         <a href={hrefValue} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-//           {showTooltip && <div className="tooltip">Click to copy {contactType}</div>}
-//           <Tilt options={{ max: 45, scale: 1, speed: 450 }}>
-//             <img className="h-9" src={src} alt={alt} />
-//           </Tilt>
-//         </a>
-//       </CopyToClipboard>
-//     </motion.div>
-//   );
-
-// };
-
 
 const Tooltip = ({ show, text, onCopy }) => {
   if (!show) return null;

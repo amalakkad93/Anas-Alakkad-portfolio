@@ -56,20 +56,12 @@ const Hero = () => {
 
             {/* <div className="absolute link1">
               <a
-                href="https://github.com/shinchancode" target="_blank">
+                href="https://github.com/amalakkad93" target="_blank">
                 <AiOutlineGithub />
               </a>
               <a
-                href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+                href="https://www.linkedin.com/in/anas-alakkad-a0b9371b3" target="_blank">
                 <ImLinkedin />
-              </a>
-              <a
-                href="https://www.instagram.com/aarti.rathiii" target="_blank">
-                <AiOutlineInstagram />
-              </a>
-              <a
-                href="https://linktr.ee/rathi17" target="_blank">
-                <BiLinkAlt />
               </a>
 
             </div> */}
