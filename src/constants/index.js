@@ -33,6 +33,10 @@ import {
   backend,
   ux,
   prototyping,
+  creator,
+  mobile,
+  
+
 
 } from "../assets";
 
@@ -46,8 +50,16 @@ const services = [
     icon: backend,
   },
   {
+    title: "ReactJS Developer",
+    icon: mobile,
+  },
+  {
     title: "UI/UX Design",
     icon: ux,
+  },
+  {
+    title: "Full Stack Developer",
+    icon: creator,
   },
   {
     title: "Software Prototyping",
