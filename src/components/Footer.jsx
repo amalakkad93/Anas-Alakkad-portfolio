@@ -59,11 +59,18 @@ const ImageCard = ({ src, alt, index, a, contactType }) => {
             transform: 'translateX(-50%)',
             marginBottom: '10px',
             cursor: 'pointer',
-            zIndex: 1
+            zIndex: 1,
+            fontSize: '12px',
           }}
           onClick={() => copyToClipboard(displayText)}
         >
-          {copied ? "Copied!" : `Click to copy ${contactType}: ${displayText}`}
+          {/* {copied ? "Copied!" : `Click to copy ${contactType}: ${displayText}`} */}
+          {copied ? "Copied!" : (
+            <div>
+              <div>Click to copy {contactType}:</div>
+              <div>{displayText}</div>
+            </div>
+          )}
         </div>
       )}
     </motion.div>

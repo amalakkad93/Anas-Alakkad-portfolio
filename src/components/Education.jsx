@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-
+import { Tilt } from "react-tilt";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -18,6 +18,7 @@ const FeedbackCard = ({
   academicDistinctions,
   image,
 }) => (
+  <Tilt className="xs:w-[320px] w-full mb-4">
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='Box2 p-5 rounded-3xl xs:w-[320px] w-full'
@@ -56,6 +57,7 @@ const FeedbackCard = ({
       )}
     </div>
   </motion.div>
+  </Tilt>
 );
 
 const Education = () => {

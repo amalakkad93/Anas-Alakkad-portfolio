@@ -19,7 +19,7 @@ import email from "./contacts/email.svg";
 import githubIcon from "./contacts/github.svg";
 import github from "./github.png";
 import demo from "./demo.png";
-import logo from "./logo/logo-black.png";
+import logo from "./logo/logo-text-black.png";
 import logotext from "./logo/logo-text-black.png";
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -108,6 +108,6 @@ export {
   pineappleHover,
   starco,
   pixelPond,
-  
+
 
 };

@@ -27,6 +27,7 @@ const App = () => {
             <StarsCanvas />
           </div>
           <Footer />
+          <div style={{ height: '50px' }}></div> 
         </div>
       </BrowserRouter>
     </div>
