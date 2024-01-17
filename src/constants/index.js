@@ -35,7 +35,7 @@ import {
   prototyping,
   creator,
   mobile,
-  
+
 
 
 } from "../assets";
@@ -217,9 +217,9 @@ const otherTechnologies = [
 const projects = [
   {
     id: "project-1",
-    name: "Starco",
+    name: "StarcoEat",
     description:
-      "Starco is a meticulously engineered clone of the famous food delivery platform UberEats, blending a robust Flask backend with a dynamic React frontend, managed efficiently through Redux. This platform revolutionizes the food delivery experience by offering a rich array of features, allowing users to easily browse through a diverse selection of restaurants and view detailed information about each, including menus and user reviews. Additionally, users can personalize their experience by marking their favorite restaurants, adding a layer of engagement to their browsing journey. Starco's advanced search functionality stands out, offering dual-mode capabilities for users to find restaurants either by geographical location or city-based search, simplifying discovery while adding depth to the search experience. The platform also encourages community interaction with a dynamic review system, enabling users to leave, update, or remove reviews, ensuring feedback remains relevant and current. At its core, Starco boasts a streamlined order management system, where users can navigate menus, add items to their cart, and experience a simulated checkout process, showcasing the potential of real-world transaction processing. The integration of Flask and React, enhanced by Redux, ensures a responsive and intuitive user interface, making the platform user-friendly for both tech-savvy individuals and newcomers to online food ordering. Overall, Starco is more than just an UberEats clone; it's a testament to sophisticated web application development, demonstrating comprehensive functionality and attention to detail, essential for modern food delivery services.",
+      "StarcoEat is a meticulously engineered clone of the famous food delivery platform UberEats, blending a robust Flask backend with a dynamic React frontend, managed efficiently through Redux. This platform revolutionizes the food delivery experience by offering a rich array of features, allowing users to easily browse through a diverse selection of restaurants and view detailed information about each, including menus and user reviews. Additionally, users can personalize their experience by marking their favorite restaurants, adding a layer of engagement to their browsing journey. Starco's advanced search functionality stands out, offering dual-mode capabilities for users to find restaurants either by geographical location or city-based search, simplifying discovery while adding depth to the search experience. The platform also encourages community interaction with a dynamic review system, enabling users to leave, update, or remove reviews, ensuring feedback remains relevant and current. At its core, StarcoEat boasts a streamlined order management system, where users can navigate menus, add items to their cart, and experience a simulated checkout process, showcasing the potential of real-world transaction processing. The integration of Flask and React, enhanced by Redux, ensures a responsive and intuitive user interface, making the platform user-friendly for both tech-savvy individuals and newcomers to online food ordering. Overall, StarcoEat is more than just an UberEats clone; it's a testament to sophisticated web application development, demonstrating comprehensive functionality and attention to detail, essential for modern food delivery services.",
     tags: [
       {
         name: "react",
