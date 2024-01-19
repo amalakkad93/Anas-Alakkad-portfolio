@@ -1,0 +1,30 @@
+ <motion.p
+        variants={fadeIn('', '', 0.1, 1)}
+        // className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] flex justify-center ">
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] mx-auto ">
+        Hello! I'm Anas Alakkad, a dedicated Software Engineer with a
+        deep-rooted passion for coding and innovation. My journey in
+        software development took a definitive turn in my final
+        semester at California State Polytechnic University, Pomona,
+        when I realized my true calling lay in software, more than in
+        hardware.
+
+        My academic background in Computer Engineering, highlighted by
+        a GPA of 3.62, laid a strong foundation in both hardware and
+        software realms. While I delved into C++ and microcontroller
+        programming—developing sensor systems, digital clocks, and
+        even a game called “Game of Life”—I found myself increasingly
+        drawn towards the intricacies of software development.
+
+        Beyond my technical prowess, my role as a Transportation
+        Manager at Ceravo Care honed my leadership skills and
+        operational efficiency. This blend of technical expertise,
+        managerial experience, and a continuous drive for learning
+        positions me uniquely in the field of software engineering.
+
+        In my free time, I engage in diverse activities such as DIY projects,
+        hiking, and reading. These hobbies not only offer me a creative outlet
+        but also sharpen my problem-solving skills.
+        They provide a balance that enhances my perspective and approach in the
+        field of software engineering.
+      </motion.p>

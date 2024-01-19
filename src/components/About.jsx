@@ -43,31 +43,29 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         // className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] flex justify-center ">
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px] mx-auto ">
-        Hello! I'm Anas Alakkad, a dedicated Software Engineer with a
-        deep-rooted passion for coding and innovation. My journey in
-        software development took a definitive turn in my final
-        semester at California State Polytechnic University, Pomona,
-        when I realized my true calling lay in software, more than in
-        hardware.
+        Hello! I'm Anas Alakkad, a Software Engineer with a passion for blending innovation and efficiency in the tech world.
+        My journey into technology started in childhood, where I spent hours disassembling and attempting to repair broken
+        electronics, from TVs to vacuums. This early curiosity laid the foundation for my career in computer engineering.
 
-        My academic background in Computer Engineering, highlighted by
-        a GPA of 3.62, laid a strong foundation in both hardware and
-        software realms. While I delved into C++ and microcontroller
-        programming—developing sensor systems, digital clocks, and
-        even a game called “Game of Life”—I found myself increasingly
-        drawn towards the intricacies of software development.
+        Moving to the US at 17 as a first-generation college graduate, I faced new academic and cultural challenges.
+        Mastering English as my second language and adapting to a diverse environment has shaped my resilient and adaptable
+        approach to software development.
 
-        Beyond my technical prowess, my role as a Transportation
-        Manager at Ceravo Care honed my leadership skills and
-        operational efficiency. This blend of technical expertise,
-        managerial experience, and a continuous drive for learning
-        positions me uniquely in the field of software engineering.
+        At California State Polytechnic University, Pomona, while pursuing a Bachelor's in Computer Engineering (GPA: 3.62),
+        I discovered my profound love for software. This passion was ignited during my academic projects, which involved intricate
+        programming and solution development. From designing a multi-controller Software Defined Network (SDN) to creating a car
+        dealer program and building a microcontroller-based traffic light system, each project deepened my interest in software
+        engineering. This pivotal experience led me to self-teach additional skills such as JavaScript, Flask, and Redux.
 
-        In my free time, I engage in diverse activities such as DIY projects,
-        hiking, and reading. These hobbies not only offer me a creative outlet
-        but also sharpen my problem-solving skills.
-        They provide a balance that enhances my perspective and approach in the
-        field of software engineering.
+        In my role as a Transportation Manager at Ceravo Care, I honed vital leadership and operational skills, enhancing
+        team performance and efficiency. This experience has been pivotal in developing my managerial capabilities,
+        vital for leading successful technology projects.
+
+        Outside professional life, my hobbies like DIY projects, hiking, and reading keep me creatively engaged and mentally agile.
+        These pursuits provide balance and enhance my problem-solving skills, crucial in the ever-evolving field of software engineering.
+
+        As I continue to delve into the vast landscape of software development, I am eager to contribute innovative solutions and
+        collaborate with like-minded professionals to push the boundaries of technology.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-10">
