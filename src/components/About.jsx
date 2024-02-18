@@ -55,7 +55,7 @@ const About = () => {
         I discovered my profound love for software. This passion was ignited during my academic projects, which involved intricate
         programming and solution development. From designing a multi-controller Software Defined Network (SDN) to creating a car
         dealer program and building a microcontroller-based traffic light system, each project deepened my interest in software
-        engineering. This pivotal experience led me to self-teach additional skills such as JavaScript, Flask, and Redux.
+        engineering. This pivotal experience led me to self-teach additional skills such as JavaScript, React, Express, Flask, Redux, and Database.
 
         In my role as a Transportation Manager at Ceravo Care, I honed vital leadership and operational skills, enhancing
         team performance and efficiency. This experience has been pivotal in developing my managerial capabilities,

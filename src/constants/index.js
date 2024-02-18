@@ -259,7 +259,8 @@ const projects = [
     ],
     image: pixelPond,
     repo: "https://github.com/amalakkad93/PixelPond",
-    demo: "https://pixelpond-rhct.onrender.com",
+    // demo: "https://pixelpond-rhct.onrender.com",
+    demo: "https://pixelpond-yu4i.onrender.com",
   },
 ];
 
