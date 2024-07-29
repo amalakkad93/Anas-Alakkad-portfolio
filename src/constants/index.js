@@ -292,19 +292,6 @@ const projects = [
 // ];
 const experiences = [
   {
-    title: "Transportation Manager",
-    company_name: "Ceravo Care",
-    icon: ceravoLogo,
-    iconBg: "#383E56",
-    date: "Aug 2017 - Feb 2024",
-    link: "",
-    points: [
-      "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members.",
-      "Overhauled trip routing, achieving a 20% improvement in operational efficiency.",
-      "Spearheaded staff management, reducing turnover by 15%.",
-    ],
-  },
-  {
     title: "Full Stack Engineer",
     company_name: "Mentor A Promise, Inc",
     icon: mentorPromiseLogo,
@@ -329,7 +316,21 @@ const experiences = [
       "Led multiple tutorial sessions, showcasing organizational and time management skills, benefiting over 30 students.",
     ],
   },
+  {
+    title: "Transportation Manager",
+    company_name: "Ceravo Care",
+    icon: ceravoLogo,
+    iconBg: "#383E56",
+    date: "Aug 2017 - Feb 2024",
+    link: "",
+    points: [
+      "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members.",
+      "Overhauled trip routing, achieving a 20% improvement in operational efficiency.",
+      "Spearheaded staff management, reducing turnover by 15%.",
+    ],
+  },
 ];
+
 
 const educations = [
   {
