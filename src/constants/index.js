@@ -35,7 +35,10 @@ import {
   prototyping,
   creator,
   mobile,
-  mentorPromiseLogo
+  mentorPromiseLogo,
+  tailwind,
+  vite,
+  nextJs
 } from "../assets";
 
 
@@ -158,7 +161,20 @@ const technologies = [
     name: "AWS",
     icon: aws,
   },
+  {
+    name: "Next.js",
+    icon: nextJs,
+  },
+  {
+    name: "Vite",
+    icon: vite,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
 ];
+
 
 const frontendTechnologies = [
   { name: "HTML 5", icon: html },
@@ -166,6 +182,9 @@ const frontendTechnologies = [
   { name: "JavaScript", icon: javascript },
   { name: "React JS", icon: reactjs },
   { name: "Redux Toolkit", icon: redux },
+  { name: "Next.js", icon: nextJs },
+  { name: "Vite", icon: vite },
+  { name: "Tailwind CSS", icon: tailwind },
 ];
 const backendTechnologies = [
   { name: "Node JS", icon: nodejs },

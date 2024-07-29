@@ -46,6 +46,8 @@ import redux from "./tech/redux.png";
 import postgresql from "./tech/postgresql.png";
 import docker from "./tech/docker.png";
 import matlab from "./tech/matlab.png";
+import vite from "./tech/vite.png"
+import nextJs from "./tech/nextJs.png"
 import calpolyLogo from "./company/calpolyLogo.jpg";
 import ceravoLogo from "./company/ceravoLogo.png";
 import mtSacLogo from "./company/mtSac.png";
@@ -85,6 +87,8 @@ export {
   nodejs,
   reactjs,
   tailwind,
+  vite,
+  nextJs,
   threejs,
   python,
   flask,
