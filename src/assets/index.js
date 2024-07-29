@@ -49,6 +49,7 @@ import matlab from "./tech/matlab.png";
 import calpolyLogo from "./company/calpolyLogo.jpg";
 import ceravoLogo from "./company/ceravoLogo.png";
 import mtSacLogo from "./company/mtSac.png";
+import mentorPromiseLogo from "./company/mentorPromiseLogo.png";
 import pineapple from "./icons/pineapple.png";
 import pineappleHover from "./icons/pineappleHover.png";
 import starco from "./projects/starco.png";
@@ -104,10 +105,9 @@ export {
   calpolyLogo,
   ceravoLogo,
   mtSacLogo,
+  mentorPromiseLogo,
   pineapple,
   pineappleHover,
   starco,
   pixelPond,
-
-
 };

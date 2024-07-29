@@ -35,10 +35,9 @@ import {
   prototyping,
   creator,
   mobile,
-
-
-
+  mentorPromiseLogo
 } from "../assets";
+
 
 const services = [
   {
@@ -264,18 +263,58 @@ const projects = [
   },
 ];
 
+// const experiences = [
+//   {
+//     title: "Transportation Manager",
+//     company_name: "Ceravo Care",
+//     icon: ceravoLogo,
+//     iconBg: "#383E56",
+//     date: "Aug 2017 - Present",
+//     link: "",
+//     points: [
+//       "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members.",
+//       "Overhauled trip routing, achieving a 20% improvement in operational efficiency.",
+//       "Spearheaded staff management, reducing turnover by 15%.",
+//     ],
+//   },
+//   {
+//     title: "Teacher Assistant (Volunteer)",
+//     company_name: "California State Polytechnic University, Pomona",
+//     icon: calpolyLogo,
+//     iconBg: "#383E56",
+//     date: "Mar 2022 - Oct 2023",
+//     link: "",
+//     points: [
+//       "Enhanced student understanding in Microcontroller & Digital Logics Design, yielding a 10% rise in average grades.",
+//       "Led multiple tutorial sessions, showcasing organizational and time management skills, benefiting over 30 students.",
+//     ],
+//   },
+// ];
 const experiences = [
   {
     title: "Transportation Manager",
     company_name: "Ceravo Care",
     icon: ceravoLogo,
     iconBg: "#383E56",
-    date: "Aug 2017 - Present",
+    date: "Aug 2017 - Feb 2024",
     link: "",
     points: [
       "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members.",
       "Overhauled trip routing, achieving a 20% improvement in operational efficiency.",
       "Spearheaded staff management, reducing turnover by 15%.",
+    ],
+  },
+  {
+    title: "Full Stack Engineer",
+    company_name: "Mentor A Promise, Inc",
+    icon: mentorPromiseLogo,
+    iconBg: "#383E56",
+    date: "Mar 2024 - Current",
+    link: "",
+    points: [
+      "Architected a microservices application with Next.js (auth/users) and separate Flask backends for shifts and chat. Deployed using AWS EC2, LightSail, and managed with Portainer Docker.",
+      "Improved performance and SEO with server-side rendering in Next.js, reducing load times and enhancing user experience. Developed dynamic UIs with React, PostgreSQL, and Tailwind CSS, boosting user engagement by 40%.",
+      "Collaborated with cross-functional teams to diagnose and resolve complex technical issues, streamlining processes and reducing resolution times by 25%, ensuring high service quality and customer satisfaction.",
     ],
   },
   {
