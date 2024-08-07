@@ -321,6 +321,7 @@ const experiences = [
       "Architected a microservices application with Next.js (auth/users) and separate Flask backends for shifts and chat. Deployed using AWS EC2, LightSail, and managed with Portainer Docker.",
       "Improved performance and SEO with server-side rendering in Next.js, reducing load times and enhancing user experience. Developed dynamic UIs with React, PostgreSQL, and Tailwind CSS, boosting user engagement by 40%.",
       "Collaborated with cross-functional teams to diagnose and resolve complex technical issues, streamlining processes and reducing resolution times by 25%, ensuring high service quality and customer satisfaction.",
+      "Implemented WebSocket technology to ensure real-time updates across the entire site, eliminating the need for page refreshes and enhancing user experience.",
     ],
   },
   {

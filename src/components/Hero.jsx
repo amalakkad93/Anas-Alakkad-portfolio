@@ -14,7 +14,7 @@ const Hero = () => {
 
   const textRef = useRef();
   useEffect(() => {
-    init(textRef.current, { showCursor: true, strings: ["HTML 5", "CSS 3", "Tailwind CSS", "JavaScript", "React JS", "Vite","Redux Toolkit", "Node JS", "postgresql", "git", "docker", "Python", "Flask", "C++", "Express", "Next.js", "SQLAlchemy", "Embedded C", "SQLite", "Pytest", "AWS"], })
+    init(textRef.current, { showCursor: true, strings: ["HTML 5", "CSS 3", "Tailwind CSS", "JavaScript", "React JS", "Vite", "Redux Toolkit", "Node JS", "postgresql", "git", "docker", "Python", "Flask", "C++", "Express", "Next.js", "SQLAlchemy", "Embedded C", "SQLite", "Pytest", "AWS"], })
   }, []);
 
   return (
