@@ -38,6 +38,7 @@ import sqlalchemy from "./tech/sqlalchemy.png";
 import sqlite from "./tech/sqlite.png";
 import pytest from "./tech/pytest.png";
 import aws from "./tech/aws.png";
+import nginx from "./tech/nginx.svg";
 import verilog from "./tech/verilog.png";
 import assembly from "./tech/assembly.png";
 import gcp from "./tech/gcp.jpg";
@@ -114,4 +115,5 @@ export {
   pineappleHover,
   starco,
   pixelPond,
+  nginx
 };

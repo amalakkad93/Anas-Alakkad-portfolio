@@ -38,9 +38,9 @@ import {
   mentorPromiseLogo,
   tailwind,
   vite,
-  nextJs
+  nextJs,
+  nginx
 } from "../assets";
-
 
 const services = [
   {
@@ -69,7 +69,6 @@ const services = [
   },
 ];
 
-
 export const navLinks = [
   {
     id: "about",
@@ -83,10 +82,12 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  { id: 'resume', title: 'Resume', url: 'https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf' },
+  {
+    id: "resume",
+    title: "Resume",
+    url: "https://raw.githubusercontent.com/amalakkad93/amalakkad93.github.io/main/Anas_Alakkad_Resume.pdf",
+  },
 ];
-
-
 
 const technologies = [
   {
@@ -134,6 +135,18 @@ const technologies = [
     icon: docker,
   },
   {
+    name: "Nginx",
+    icon: nginx,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Vite",
+    icon: vite,
+  },
+  {
     name: "Python",
     icon: python,
   },
@@ -175,7 +188,6 @@ const technologies = [
   },
 ];
 
-
 const frontendTechnologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
@@ -199,6 +211,14 @@ const databaseTechnologies = [
 const otherTechnologies = [
   { name: "Git", icon: git },
   { name: "Docker", icon: docker },
+  { name: "Nginx", icon: nginx },
+  { name: "Google Cloud", icon: "https://img.icons8.com/color/480/000000/google-cloud.png" },
+  { name: "AWS", icon: aws },
+  { name: "C++ tool", icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png" },
+  { name: "Matlab", icon: matlab },
+  { name: "Assembly", icon: assembly },
+  { name: "Verilog", icon: verilog },
+  { name: "Embedded C", icon: embeddedC },
   { name: "SQLAlchemy", icon: sqlalchemy },
   { name: "Pytest", icon: pytest },
   { name: "Embedded C", icon: embeddedC },
@@ -311,11 +331,33 @@ const projects = [
 // ];
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Ceravo Care",
+    icon: ceravoLogo,
+    iconBg: "#383E56",
+    date: "Aug 2017 - Current",
+    link: "",
+    points: [
+      "Architected RouteWizard, a HIPAA-ready SaaS platform for NEMT providers, integrating a real-time Vite/React dispatcher dashboard, Expo React Native driver app, and scalable Flask backend.",
+      "Engineered real-time trip dispatching and live driver tracking with WebSockets, Google Maps, and GPS for minute-by-minute fleet visibility and automated assignment.",
+      "Automated Excel/CSV ingestion with an AI-powered pipeline leveraging a RandomForest ML model, streamlining data normalization and column mapping.",
+      "Delivered a modular microservices backend (Flask, Celery, SQLAlchemy, Redis, PostgreSQL) supporting multi-tenant SaaS and robust task orchestration.",
+      "Implemented async file upload and scalable background processing using Redis APIs and status endpoints, supporting seamless bulk data imports with real-time progress feedback.",
+      "Built an enterprise-grade dispatcher UI with live map tracking, route filters, analytics, and CSV reporting.",
+      "Drove feature development and maintenance of the Expo React Native driver mobile app, delivering real-time trip workflows, offline GPS caching, socket chat, notifications, and shift inspection forms for field reliability.",
+      "Orchestrated CI/CD and Dockerized deployments with Nginx, HTTPS, persistent Redis, scalable Gunicorn, and Prometheus/Grafana monitoring.",
+      "Championed observability and compliance by centralizing logs and automating inspection/shift reporting.",
+      "Increased dispatch efficiency by 30% via optimized trip assignment algorithms.",
+      "Developed a secure, scalable real-time chat system enabling instant communication between dispatchers and drivers, with delivery receipts and presence indicators, integrated seamlessly across web and mobile.",
+      "Led technical architecture, DevOps, and platform operations as founding engineer.",
+    ],
+  },
+  {
     title: "Full Stack Engineer",
     company_name: "Mentor A Promise, Inc",
     icon: mentorPromiseLogo,
     iconBg: "#383E56",
-    date: "Mar 2024 - Current",
+    date: "Mar 2024 - Dec 2024",
     link: "",
     points: [
       "Architected a microservices application with Next.js (auth/users) and separate Flask backends for shifts and chat. Deployed using AWS EC2, LightSail, and managed with Portainer Docker.",
@@ -336,21 +378,7 @@ const experiences = [
       "Led multiple tutorial sessions, showcasing organizational and time management skills, benefiting over 30 students.",
     ],
   },
-  {
-    title: "Transportation Manager",
-    company_name: "Ceravo Care",
-    icon: ceravoLogo,
-    iconBg: "#383E56",
-    date: "Aug 2017 - Feb 2024",
-    link: "",
-    points: [
-      "Led a transportation team, enhancing performance and efficiency, impacting 30+ team members.",
-      "Overhauled trip routing, achieving a 20% improvement in operational efficiency.",
-      "Spearheaded staff management, reducing turnover by 15%.",
-    ],
-  },
 ];
-
 
 const educations = [
   {
